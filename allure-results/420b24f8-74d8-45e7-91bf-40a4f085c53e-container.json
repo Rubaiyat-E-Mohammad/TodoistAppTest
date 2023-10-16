@@ -1,0 +1,1 @@
+{"uuid":"420b24f8-74d8-45e7-91bf-40a4f085c53e","name":"Default test","children":["5b13aeb5-a91f-4f06-8093-a3214a527d4b"],"befores":[{"name":"openTodoist","status":"passed","stage":"finished","description":"Opening the app","steps":[],"attachments":[],"parameters":[],"start":1697302573098,"stop":1697302584060}],"afters":[],"start":1697302573088,"stop":1697302584398}

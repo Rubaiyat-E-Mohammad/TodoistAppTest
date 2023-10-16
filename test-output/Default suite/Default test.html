@@ -1,0 +1,195 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Oct 16 21:36:43 BDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>416 seconds (416372 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TodoistApp.Todoist.invalidCredential()'><b>invalidCredential</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user cannot log in with invalid credentials</td>
+<td></td>
+<td>44</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.changeTheme()'><b>changeTheme</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can change the theme</td>
+<td></td>
+<td>4</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.quickAdd()'><b>quickAdd</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can modify quick add features</td>
+<td></td>
+<td>11</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.FacebookLogin()'><b>FacebookLogin</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can successfully register his account by Facebook</td>
+<td></td>
+<td>28</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.changeLang()'><b>changeLang</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can change language</td>
+<td></td>
+<td>2</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.swipeAction()'><b>swipeAction</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can adjust swipe action features</td>
+<td></td>
+<td>5</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.createProject()'><b>createProject</b><br>Test class: TodoistApp.Todoist<br>Test method: Create a new project with a specific name</td>
+<td></td>
+<td>11</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.editDate()'><b>editDate</b><br>Test class: TodoistApp.Todoist<br>Test method: Edit the due date for the task</td>
+<td></td>
+<td>43</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.changeAppBar()'><b>changeAppBar</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can change UI of bottom app bar</td>
+<td></td>
+<td>5</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.changeIcon()'><b>changeIcon</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can change app icon</td>
+<td></td>
+<td>6</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.signup()'><b>signup</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can sign up with valid credentials</td>
+<td></td>
+<td>41</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.checkInbox()'><b>checkInbox</b><br>Test class: TodoistApp.Todoist<br>Test method: Check that a user can check inbox, today and upcoming events</td>
+<td></td>
+<td>10</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.createTask()'><b>createTask</b><br>Test class: TodoistApp.Todoist<br>Test method: Create a new task with a specific title</td>
+<td></td>
+<td>7</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.chnageView()'><b>chnageView</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can change home view</td>
+<td></td>
+<td>5</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.timeDate()'><b>timeDate</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can modify date and time settings</td>
+<td></td>
+<td>10</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.GoogleLogin()'><b>GoogleLogin</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can successfully register his account by google</td>
+<td></td>
+<td>29</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.login()'><b>login</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can log in with valid credentials</td>
+<td></td>
+<td>32</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.deleteTask()'><b>deleteTask</b><br>Test class: TodoistApp.Todoist<br>Test method: Check that a specific task can be deleted</td>
+<td></td>
+<td>38</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.navMenu()'><b>navMenu</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can modify navigation menu</td>
+<td></td>
+<td>6</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.modifyName()'><b>modifyName</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can modify account name</td>
+<td></td>
+<td>10</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.filteredTask()'><b>filteredTask</b><br>Test class: TodoistApp.Todoist<br>Test method: Check that a user can check filtered task</td>
+<td></td>
+<td>9</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.completeTask()'><b>completeTask</b><br>Test class: TodoistApp.Todoist<br>Test method: Check that a specific task can mark as completed</td>
+<td></td>
+<td>37</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+<tr>
+<td title='TodoistApp.Todoist.syncView()'><b>syncView</b><br>Test class: TodoistApp.Todoist<br>Test method: Verify that a user can sync home view</td>
+<td></td>
+<td>2</td>
+<td>TodoistApp.Todoist@5ddeb7cb</td></tr>
+</table><p>
+</body>
+</html>

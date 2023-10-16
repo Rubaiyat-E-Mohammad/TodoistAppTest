@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-16T21:36:43 BDT" name="Default suite" finished-at="2023-10-16T21:43:40 BDT" duration-ms="416372">
+    <groups>
+    </groups>
+    <test started-at="2023-10-16T21:36:43 BDT" name="Default test" finished-at="2023-10-16T21:43:40 BDT" duration-ms="416372">
+      <class name="TodoistApp.Todoist">
+        <test-method is-config="true" signature="openTodoist()[pri:0, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:36:43 BDT" name="openTodoist" finished-at="2023-10-16T21:36:52 BDT" duration-ms="8635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTodoist -->
+        <test-method signature="FacebookLogin()[pri:1, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:36:52 BDT" name="FacebookLogin" description="Verify that a user can successfully register his account by Facebook" finished-at="2023-10-16T21:37:20 BDT" duration-ms="28301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FacebookLogin -->
+        <test-method signature="GoogleLogin()[pri:2, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:37:20 BDT" name="GoogleLogin" description="Verify that a user can successfully register his account by google" finished-at="2023-10-16T21:37:50 BDT" duration-ms="29766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleLogin -->
+        <test-method signature="invalidCredential()[pri:3, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:37:50 BDT" name="invalidCredential" description="Verify that a user cannot log in with invalid credentials" finished-at="2023-10-16T21:38:35 BDT" duration-ms="44557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredential -->
+        <test-method signature="signup()[pri:4, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:38:35 BDT" name="signup" description="Verify that a user can sign up with valid credentials" finished-at="2023-10-16T21:39:16 BDT" duration-ms="41471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="login()[pri:5, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:39:16 BDT" name="login" description="Verify that a user can log in with valid credentials" finished-at="2023-10-16T21:39:48 BDT" duration-ms="32238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createTask()[pri:6, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:39:48 BDT" name="createTask" description="Create a new task with a specific title" finished-at="2023-10-16T21:39:56 BDT" duration-ms="7438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTask -->
+        <test-method signature="editDate()[pri:7, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:39:56 BDT" name="editDate" description="Edit the due date for the task" finished-at="2023-10-16T21:40:39 BDT" duration-ms="43522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editDate -->
+        <test-method signature="completeTask()[pri:8, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:40:39 BDT" name="completeTask" description="Check that a specific task can mark as completed" finished-at="2023-10-16T21:41:17 BDT" duration-ms="37358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTask -->
+        <test-method signature="deleteTask()[pri:9, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:41:17 BDT" name="deleteTask" description="Check that a specific task can be deleted" finished-at="2023-10-16T21:41:55 BDT" duration-ms="38622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTask -->
+        <test-method signature="createProject()[pri:10, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:41:55 BDT" name="createProject" description="Create a new project with a specific name" finished-at="2023-10-16T21:42:07 BDT" duration-ms="11238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method signature="checkInbox()[pri:11, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:42:07 BDT" name="checkInbox" description="Check that a user can check inbox, today and upcoming events" finished-at="2023-10-16T21:42:17 BDT" duration-ms="10673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInbox -->
+        <test-method signature="filteredTask()[pri:12, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:42:17 BDT" name="filteredTask" description="Check that a user can check filtered task" finished-at="2023-10-16T21:42:27 BDT" duration-ms="9831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filteredTask -->
+        <test-method signature="modifyName()[pri:13, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:42:27 BDT" name="modifyName" description="Verify that a user can modify account name" finished-at="2023-10-16T21:42:38 BDT" duration-ms="10685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyName -->
+        <test-method signature="chnageView()[pri:14, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:42:38 BDT" name="chnageView" description="Verify that a user can change home view" finished-at="2023-10-16T21:42:43 BDT" duration-ms="5533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chnageView -->
+        <test-method signature="syncView()[pri:15, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:42:43 BDT" name="syncView" description="Verify that a user can sync home view" finished-at="2023-10-16T21:42:46 BDT" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- syncView -->
+        <test-method signature="changeLang()[pri:16, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:42:46 BDT" name="changeLang" description="Verify that a user can change language" finished-at="2023-10-16T21:42:49 BDT" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLang -->
+        <test-method signature="timeDate()[pri:17, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:42:49 BDT" name="timeDate" description="Verify that a user can modify date and time settings" finished-at="2023-10-16T21:43:00 BDT" duration-ms="10843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeDate -->
+        <test-method signature="swipeAction()[pri:18, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:43:00 BDT" name="swipeAction" description="Verify that a user can adjust swipe action features" finished-at="2023-10-16T21:43:05 BDT" duration-ms="5318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipeAction -->
+        <test-method signature="changeTheme()[pri:19, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:43:05 BDT" name="changeTheme" description="Verify that a user can change the theme" finished-at="2023-10-16T21:43:10 BDT" duration-ms="4984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeTheme -->
+        <test-method signature="changeIcon()[pri:20, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:43:10 BDT" name="changeIcon" description="Verify that a user can change app icon" finished-at="2023-10-16T21:43:16 BDT" duration-ms="6131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeIcon -->
+        <test-method signature="changeAppBar()[pri:21, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:43:16 BDT" name="changeAppBar" description="Verify that a user can change UI of bottom app bar" finished-at="2023-10-16T21:43:21 BDT" duration-ms="5273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeAppBar -->
+        <test-method signature="navMenu()[pri:22, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:43:21 BDT" name="navMenu" description="Verify that a user can modify navigation menu" finished-at="2023-10-16T21:43:28 BDT" duration-ms="6470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navMenu -->
+        <test-method signature="quickAdd()[pri:23, instance:TodoistApp.Todoist@5ddeb7cb]" started-at="2023-10-16T21:43:28 BDT" name="quickAdd" description="Verify that a user can modify quick add features" finished-at="2023-10-16T21:43:40 BDT" duration-ms="11857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickAdd -->
+      </class> <!-- TodoistApp.Todoist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
