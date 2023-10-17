@@ -1,6 +1,6 @@
 # Todoist App (A todo list planner app) Automation
 
-This repository contains a Java Selenium project that executes different test cases to ensure the quality of the Todoist android app. The project uses appium clients to test the android app as well as TestNG and Allure for reporting. This test project POM for structur preserving 
+This repository contains a Java Selenium project that executes different test cases to ensure the quality of the Todoist android app. The project uses appium clients to test the android app as well as TestNG and Allure for reporting. This test project follows POM structure.
 
 ## Usage
 
